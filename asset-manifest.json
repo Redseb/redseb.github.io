@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50eba458.chunk.css",
+    "main.js": "/static/js/main.57a02e44.chunk.js",
+    "main.js.map": "/static/js/main.57a02e44.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.926bdd2b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.926bdd2b.js.map",
+    "static/js/2.7a1f8b4c.chunk.js": "/static/js/2.7a1f8b4c.chunk.js",
+    "static/js/2.7a1f8b4c.chunk.js.map": "/static/js/2.7a1f8b4c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.09ce5c4f447682fbe402d20895dadb95.js": "/precache-manifest.09ce5c4f447682fbe402d20895dadb95.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.50eba458.chunk.css.map": "/static/css/main.50eba458.chunk.css.map",
+    "static/js/2.7a1f8b4c.chunk.js.LICENSE.txt": "/static/js/2.7a1f8b4c.chunk.js.LICENSE.txt",
+    "static/media/MikołajZyzańskiCV.pdf": "/static/media/MikołajZyzańskiCV.bd47ccfc.pdf",
+    "static/media/cpsScreen1.png": "/static/media/cpsScreen1.c8ad2d03.png",
+    "static/media/cpsScreen2.png": "/static/media/cpsScreen2.8c6556a3.png",
+    "static/media/cpsScreen3.png": "/static/media/cpsScreen3.263ba4f9.png",
+    "static/media/drinkUpImg.webp": "/static/media/drinkUpImg.3746f118.webp",
+    "static/media/drinkUpScreen1.webp": "/static/media/drinkUpScreen1.21703392.webp",
+    "static/media/drinkUpScreen2.webp": "/static/media/drinkUpScreen2.2c7eab77.webp",
+    "static/media/drinkUpScreen3.webp": "/static/media/drinkUpScreen3.780d329c.webp",
+    "static/media/mushroomologyImg.png": "/static/media/mushroomologyImg.4e9b3a40.png",
+    "static/media/mushroomologyScreen1.jpg": "/static/media/mushroomologyScreen1.7decec3d.jpg",
+    "static/media/mushroomologyScreen2.jpg": "/static/media/mushroomologyScreen2.0a626252.jpg",
+    "static/media/mushroomologyScreen3.jpg": "/static/media/mushroomologyScreen3.7ed146e7.jpg",
+    "static/media/pcImg.webp": "/static/media/pcImg.017fd5b9.webp",
+    "static/media/pcScreen1.webp": "/static/media/pcScreen1.b7aeb702.webp",
+    "static/media/pcScreen2.webp": "/static/media/pcScreen2.f65af923.webp",
+    "static/media/pcScreen3.webp": "/static/media/pcScreen3.beece398.webp",
+    "static/media/problemonImg.png": "/static/media/problemonImg.165e9249.png",
+    "static/media/problemonScreen1.jpg": "/static/media/problemonScreen1.f37ec178.jpg",
+    "static/media/problemonScreen2.jpg": "/static/media/problemonScreen2.a7f7eab2.jpg",
+    "static/media/problemonScreen3.jpg": "/static/media/problemonScreen3.679288ae.jpg",
+    "static/media/profile.jpg": "/static/media/profile.3a89dbea.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.926bdd2b.js",
+    "static/js/2.7a1f8b4c.chunk.js",
+    "static/css/main.50eba458.chunk.css",
+    "static/js/main.57a02e44.chunk.js"
+  ]
+}
