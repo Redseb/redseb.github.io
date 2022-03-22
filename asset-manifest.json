@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.50eba458.chunk.css",
-    "main.js": "/static/js/main.54bd9d14.chunk.js",
-    "main.js.map": "/static/js/main.54bd9d14.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.926bdd2b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.926bdd2b.js.map",
-    "static/js/2.7a1f8b4c.chunk.js": "/static/js/2.7a1f8b4c.chunk.js",
-    "static/js/2.7a1f8b4c.chunk.js.map": "/static/js/2.7a1f8b4c.chunk.js.map",
+    "main.css": "/static/css/main.ff051587.chunk.css",
+    "main.js": "/static/js/main.2f886985.chunk.js",
+    "main.js.map": "/static/js/main.2f886985.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8942cc20.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8942cc20.js.map",
+    "static/js/2.c08f9410.chunk.js": "/static/js/2.c08f9410.chunk.js",
+    "static/js/2.c08f9410.chunk.js.map": "/static/js/2.c08f9410.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.aed483fa63709807d26d8a0263217c36.js": "/precache-manifest.aed483fa63709807d26d8a0263217c36.js",
+    "precache-manifest.23b913bd2345b199cc7dc8acfd5ccfc3.js": "/precache-manifest.23b913bd2345b199cc7dc8acfd5ccfc3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.50eba458.chunk.css.map": "/static/css/main.50eba458.chunk.css.map",
-    "static/js/2.7a1f8b4c.chunk.js.LICENSE.txt": "/static/js/2.7a1f8b4c.chunk.js.LICENSE.txt",
+    "static/css/main.ff051587.chunk.css.map": "/static/css/main.ff051587.chunk.css.map",
+    "static/js/2.c08f9410.chunk.js.LICENSE.txt": "/static/js/2.c08f9410.chunk.js.LICENSE.txt",
     "static/media/MikołajZyzańskiCV.pdf": "/static/media/MikołajZyzańskiCV.bd47ccfc.pdf",
     "static/media/cpsScreen1.png": "/static/media/cpsScreen1.c8ad2d03.png",
     "static/media/cpsScreen2.png": "/static/media/cpsScreen2.8c6556a3.png",
@@ -32,12 +32,16 @@
     "static/media/problemonScreen1.jpg": "/static/media/problemonScreen1.f37ec178.jpg",
     "static/media/problemonScreen2.jpg": "/static/media/problemonScreen2.a7f7eab2.jpg",
     "static/media/problemonScreen3.jpg": "/static/media/problemonScreen3.679288ae.jpg",
-    "static/media/profile.jpg": "/static/media/profile.3a89dbea.jpg"
+    "static/media/profile.jpg": "/static/media/profile.3a89dbea.jpg",
+    "static/media/scImg.png": "/static/media/scImg.f0ea06bf.png",
+    "static/media/scScreen1.png": "/static/media/scScreen1.5d6f5dd0.png",
+    "static/media/scScreen2.png": "/static/media/scScreen2.955e0abe.png",
+    "static/media/scScreen3.png": "/static/media/scScreen3.aba3ce27.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.926bdd2b.js",
-    "static/js/2.7a1f8b4c.chunk.js",
-    "static/css/main.50eba458.chunk.css",
-    "static/js/main.54bd9d14.chunk.js"
+    "static/js/runtime-main.8942cc20.js",
+    "static/js/2.c08f9410.chunk.js",
+    "static/css/main.ff051587.chunk.css",
+    "static/js/main.2f886985.chunk.js"
   ]
 }
