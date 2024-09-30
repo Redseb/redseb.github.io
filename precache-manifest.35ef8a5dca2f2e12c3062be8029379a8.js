@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d0a56416c2dca7def12c99aa689a7af",
+    "revision": "1eaff78bf9feb20d8fe4811586f98b8a",
     "url": "/index.html"
   },
   {
-    "revision": "168badb47a4a661dd1b7",
+    "revision": "57f4c63bc21f79966b60",
     "url": "/static/css/main.ff051587.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c08f9410.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "168badb47a4a661dd1b7",
-    "url": "/static/js/main.409f90f1.chunk.js"
+    "revision": "57f4c63bc21f79966b60",
+    "url": "/static/js/main.afb70176.chunk.js"
   },
   {
     "revision": "6a149f0a53038189b7cb",
     "url": "/static/js/runtime-main.8942cc20.js"
   },
   {
-    "revision": "b0ff03dad3389023d9d924d8ffd334a6",
-    "url": "/static/media/MikołajZyzańskiCV.b0ff03da.pdf"
+    "revision": "87fd52b8d895c04cf24fe2fb3f87c6c8",
+    "url": "/static/media/MikołajZyzańskiCV.87fd52b8.pdf"
   },
   {
     "revision": "c8ad2d031a850ee9838bc6b3e6e17c4a",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "780d329c1980b9cbb084fe1cce3c16d4",
     "url": "/static/media/drinkUpScreen3.780d329c.webp"
+  },
+  {
+    "revision": "7907dde87fbca3cbbe78f7c4300dac8e",
+    "url": "/static/media/iglogo.7907dde8.jpg"
   },
   {
     "revision": "5738eb71bb14b65c1305bef3315e7893",
@@ -108,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/problemonScreen3.679288ae.jpg"
   },
   {
-    "revision": "3a89dbea25e3e026d64fdad5bbcdcd1a",
-    "url": "/static/media/profile.3a89dbea.jpg"
+    "revision": "357d658c625939d4e96ded0c6e653bee",
+    "url": "/static/media/profile.357d658c.jpg"
   },
   {
     "revision": "f0ea06bf8f639a3565c7e04a48957219",
