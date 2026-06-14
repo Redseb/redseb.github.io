@@ -24,11 +24,9 @@ side project is one `<article class="project">` block; a job is one
 
 ## Deploying
 
-Push to `main`. The GitHub Action publishes the repo to GitHub Pages automatically —
-one repo, no separate build-output repo.
-
-One-time setup: in the repo's **Settings → Pages**, set **Source** to
-**GitHub Actions**.
+Push to `master`. The GitHub Action publishes the repo to GitHub Pages automatically —
+one repo, no separate build-output repo. Pages is already configured to build from
+**GitHub Actions** (`Settings → Pages → Source`).
 
 ## Local preview
 
