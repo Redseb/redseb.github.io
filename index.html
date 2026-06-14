@@ -1,1 +1,256 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Mikołaj Zyzański's Portfolio"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Mikołaj Zyzański</title><link href="/static/css/main.ff051587.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,l,f=r[0],i=r[1],p=r[2],c=0,s=[];c<f.length;c++)l=f[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);for(a&&a(r);s.length;)s.shift()();return u.push.apply(u,p||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,f=1;f<t.length;f++){var i=t[f];0!==o[i]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var f=this.webpackJsonpportoflio=this.webpackJsonpportoflio||[],i=f.push.bind(f);f.push=r,f=f.slice();for(var p=0;p<f.length;p++)r(f[p]);var a=i;t()}([])</script><script src="/static/js/2.c08f9410.chunk.js"></script><script src="/static/js/main.afb70176.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mikołaj Zyzański — React Native Developer & Team Lead</title>
+    <meta
+      name="description"
+      content="Mikołaj (Miko) Zyzański — React Native Developer & Team Lead based in Warsaw. Mobile and web apps, fintech, and side projects."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mikołaj Zyzański — React Native Developer & Team Lead" />
+    <meta
+      property="og:description"
+      content="React Native Developer & Team Lead based in Warsaw. Mobile and web apps, fintech, and side projects."
+    />
+    <meta property="og:url" content="https://www.mikozyz.dev" />
+    <meta property="og:image" content="https://www.mikozyz.dev/assets/img/profile.jpg" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="nav">
+      <div class="nav__inner">
+        <a class="nav__brand" href="#top">Mikołaj Zyzański</a>
+        <nav class="nav__links" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          type="button"
+          aria-label="Toggle color theme"
+          title="Toggle theme"
+        >
+          ◐
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="wrap">
+        <!-- Hero -->
+        <section class="hero" id="top">
+          <div class="hero__text">
+            <p class="hero__eyebrow">Hi, I'm Miko 👋</p>
+            <h1 class="hero__title">React Native Developer &amp; Team Lead</h1>
+            <p class="hero__lead">
+              I build polished mobile and web products — currently in fintech at IG
+              Group. Based in Warsaw, comfortable in international teams, and currently
+              building <a href="#projects">Lismova</a>, a pixel-art app for learning
+              Belarusian.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#projects">View work</a>
+              <a class="btn btn--ghost" href="assets/docs/cv.pdf" download>Download CV</a>
+            </div>
+            <ul class="hero__meta">
+              <li><span>Location</span>Warsaw, Poland</li>
+              <li><span>Languages</span>English, Polish, conversational French</li>
+            </ul>
+          </div>
+          <div class="hero__photo">
+            <img
+              src="assets/img/profile.jpg"
+              alt="Portrait of Mikołaj Zyzański"
+              width="168"
+              height="168"
+            />
+          </div>
+        </section>
+      </div>
+
+      <div class="wrap">
+        <!-- About -->
+        <section class="section" id="about">
+          <h2 class="section__title">About</h2>
+          <div class="prose">
+            <p>
+              I'm a React Native Developer and Team Lead who enjoys taking products from
+              an idea through to something polished and shipped. I care about smooth
+              interactions, maintainable code, and the planning conversations that make
+              a project succeed.
+            </p>
+            <p>
+              Having lived in <strong>7 different countries</strong> across Europe, Asia
+              and the Middle East, I'm comfortable in international teams and well versed
+              in cultural differences.
+            </p>
+          </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section" id="experience">
+          <h2 class="section__title">Work Experience</h2>
+
+          <article class="entry">
+            <div class="entry__date">Sep 2023 — Present</div>
+            <div>
+              <h3 class="entry__role">
+                React Native Developer &amp; Team Lead ·
+                <a class="entry__org" href="https://www.iggroup.com/" rel="noopener">IG Group</a>
+              </h3>
+              <p class="entry__desc">
+                Working on a fintech application end to end with TypeScript, Redux
+                Toolkit and Reanimated. Closely involved in planning — discussions with
+                designers, product owners and other stakeholders.
+              </p>
+              <div class="tags">
+                <span class="tag">React Native</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Redux Toolkit</span>
+                <span class="tag">Team Leadership</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry__date">Oct 2022 — Aug 2023</div>
+            <div>
+              <h3 class="entry__role">
+                Junior React Native Developer ·
+                <a class="entry__org" href="https://www.iteratorshq.com/" rel="noopener">Iterators</a>
+              </h3>
+              <p class="entry__desc">
+                Built frontend code across multiple client projects, supported clients
+                with architectural knowledge, and liaised with product, design and
+                development teams to ensure the quality of deliverables.
+              </p>
+              <div class="tags">
+                <span class="tag">React Native</span>
+                <span class="tag">React Native Web</span>
+                <span class="tag">MobX</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry__date">Jun 2021 — Oct 2021</div>
+            <div>
+              <h3 class="entry__role">
+                QA Intern ·
+                <a class="entry__org" href="https://cleeng.com/" rel="noopener">Cleeng</a>
+              </h3>
+              <p class="entry__desc">
+                Spearheaded the development of an internal testing app, written in React
+                Native, used to test in-app purchases on Android and iOS.
+              </p>
+              <div class="tags">
+                <span class="tag">React Native</span>
+                <span class="tag">Jest</span>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- Featured side project -->
+        <section class="section" id="projects">
+          <h2 class="section__title">Side Project</h2>
+
+          <article class="feature">
+            <div class="feature__head">
+              <img
+                class="feature__icon"
+                src="assets/img/lismova/icon.png"
+                alt="Lismova app icon — a pixel-art fox"
+                width="72"
+                height="72"
+              />
+              <div>
+                <h3 class="feature__name">
+                  Lismova <span class="badge">Coming soon</span>
+                </h3>
+                <p class="feature__tagline">
+                  Learn Belarusian — pixel-art lessons &amp; flashcards
+                </p>
+              </div>
+            </div>
+
+            <div class="prose">
+              <p>
+                A Duolingo-style app for learning Belarusian — one of Europe's most
+                underserved languages, which the big apps simply don't teach. The name
+                blends <em>ліс</em> (fox) and <em>мова</em> (language), with a pixel-art
+                fox as the mascot. Built in React Native with a hand-styled retro
+                aesthetic: bite-sized lessons, a swipeable flashcard deck, and full verb
+                conjugations — all fully offline, no account, no ads.
+              </p>
+              <p>
+                I'm building it solo, with content verified by a native speaker. The
+                pixel art is rendered with React Native Skia for crisp upscaling on
+                high-DPI screens.
+              </p>
+            </div>
+
+            <div class="tags">
+              <span class="tag">React Native</span>
+              <span class="tag">Expo</span>
+              <span class="tag">Skia</span>
+              <span class="tag">Reanimated</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Offline-first</span>
+            </div>
+
+            <div class="shots">
+              <img src="assets/img/lismova/01-home.png" alt="Lismova home screen with streak, XP and lesson map" loading="lazy" />
+              <img src="assets/img/lismova/02-lesson.png" alt="Lismova lesson: match-the-word exercise" loading="lazy" />
+              <img src="assets/img/lismova/03-flashcards.png" alt="Lismova pixel-art flashcard deck" loading="lazy" />
+              <img src="assets/img/lismova/04-conjugations.png" alt="Lismova verb conjugation reference" loading="lazy" />
+            </div>
+
+            <div class="project__links">
+              <a href="privacy/lismova.html">Privacy policy</a>
+            </div>
+          </article>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+          <h2 class="section__title">Sound interesting?</h2>
+          <div class="prose">
+            <p>I'm always happy to talk about new opportunities and projects.</p>
+          </div>
+          <div class="contact__list">
+            <a href="mailto:mikolajzyzanski@gmail.com">Email</a>
+            <a href="https://github.com/Redseb" rel="noopener">GitHub</a>
+            <a href="https://twitter.com/mikoZyzanski" rel="noopener">Twitter / X</a>
+            <a href="assets/docs/cv.pdf" download>Download CV</a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <p>© <span id="year"></span> Mikołaj Zyzański</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

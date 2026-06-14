@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy — Lismova</title>
+    <meta name="description" content="Privacy policy for Lismova, a Belarusian learning app." />
+    <link rel="icon" href="../favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script>
+      (function () {
+        var s = localStorage.getItem("theme");
+        var d = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.setAttribute("data-theme", s || (d ? "dark" : "light"));
+      })();
+    </script>
+  </head>
+  <body>
+    <main id="main">
+      <div class="wrap legal">
+        <a class="back" href="../index.html">← Back to portfolio</a>
+        <h1>Lismova — Privacy Policy</h1>
+        <p class="updated">Last updated: June 2026</p>
+
+        <h2>The short version</h2>
+        <p>
+          Lismova collects nothing. There is no account, no sign-up, no ads, no
+          analytics or tracking, and no servers. The app works fully offline and
+          everything you do stays on your device.
+        </p>
+
+        <h2>Information the app collects</h2>
+        <p>
+          <strong>None.</strong> Lismova does not collect, store, transmit, or share any
+          personal information. It does not ask you to create an account and does not
+          require an internet connection to function.
+        </p>
+
+        <h2>Data stored on your device</h2>
+        <p>
+          Your learning progress — completed lessons, XP, streak, achievements and
+          settings — is saved locally on your device so the app can remember where you
+          left off. This information never leaves your device, is not accessible to me,
+          and is removed if you delete the app.
+        </p>
+
+        <h2>Advertising, analytics &amp; third parties</h2>
+        <p>
+          Lismova contains no advertising and no third-party analytics or tracking SDKs.
+          The app makes no network requests of its own. Standard platform services
+          provided by Apple or Google (for example, app distribution and crash reporting
+          you may have enabled at the operating-system level) are governed by those
+          companies' own privacy policies.
+        </p>
+
+        <h2>Children</h2>
+        <p>
+          Lismova is suitable for all ages and does not collect personal information
+          from anyone, including children.
+        </p>
+
+        <h2>Changes to this policy</h2>
+        <p>
+          If the app's data practices ever change, this policy will be updated here with
+          a new "last updated" date before those changes take effect.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Questions about this policy? Email
+          <a href="mailto:mikolajzyzanski@gmail.com">mikolajzyzanski@gmail.com</a>.
+        </p>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="wrap"><p>© <span id="year"></span> Mikołaj Zyzański</p></div>
+    </footer>
+    <script src="../main.js"></script>
+  </body>
+</html>
