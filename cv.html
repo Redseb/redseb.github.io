@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--
+  CV source. Edit this file, then regenerate the PDF with:
+
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+      --headless=new --disable-gpu --no-pdf-header-footer \
+      --virtual-time-budget=10000 \
+      --print-to-pdf="assets/docs/cv.pdf" \
+      "file://$(pwd)/cv.html"
+
+  Also viewable live at https://www.mikozyz.dev/cv.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mikołaj Zyzański — CV</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="cv.css" />
+  </head>
+  <body>
+    <main class="page">
+      <!-- ============ SIDEBAR ============ -->
+      <aside class="side">
+        <img class="side__photo" src="assets/img/profile.jpg" alt="Mikołaj Zyzański" />
+
+        <section class="side__block">
+          <h2 class="side__title">Contact</h2>
+          <ul class="side__list">
+            <li>Warsaw, Poland</li>
+            <li>+48 517 826 284</li>
+            <li><a href="mailto:mikolajzyzanski@gmail.com">mikolajzyzanski@gmail.com</a></li>
+            <li><a href="https://mikozyz.dev">mikozyz.dev</a></li>
+            <li><a href="https://github.com/Redseb">github.com/Redseb</a></li>
+            <li><a href="https://linkedin.com/in/mikozyz">linkedin.com/in/mikozyz</a></li>
+          </ul>
+        </section>
+
+        <section class="side__block">
+          <h2 class="side__title">Skills</h2>
+          <div class="skill">
+            <h3>Core</h3>
+            <p>TypeScript · React Native · React.js</p>
+          </div>
+          <div class="skill">
+            <h3>React Native</h3>
+            <p>Reanimated · React Navigation · react-native-web · Expo · Ignite</p>
+          </div>
+          <div class="skill">
+            <h3>State Management</h3>
+            <p>Redux · Redux Toolkit · MobX</p>
+          </div>
+          <div class="skill">
+            <h3>Testing &amp; Tooling</h3>
+            <p>Maestro (E2E) · Continuous Integration · OpenTelemetry</p>
+          </div>
+          <div class="skill">
+            <h3>Leadership</h3>
+            <p>Squad lead · mentoring · planning &amp; scoping</p>
+          </div>
+        </section>
+
+        <section class="side__block">
+          <h2 class="side__title">Languages</h2>
+          <ul class="side__list">
+            <li><strong>English</strong> — Native</li>
+            <li><strong>Polish</strong> — Native</li>
+            <li><strong>French</strong> — Intermediate</li>
+          </ul>
+        </section>
+
+        <section class="side__block">
+          <h2 class="side__title">Interests</h2>
+          <ul class="side__list side__list--inline">
+            <li>Marathon running</li>
+            <li>Hiking</li>
+            <li>Cooking</li>
+            <li>Investing</li>
+          </ul>
+        </section>
+      </aside>
+
+      <!-- ============ MAIN ============ -->
+      <div class="main">
+        <header class="head">
+          <h1 class="head__name">Mikołaj Zyzański</h1>
+          <p class="head__role">Senior React Native Developer</p>
+        </header>
+
+        <section class="block">
+          <h2 class="block__title">Summary</h2>
+          <ul class="summary">
+            <li>4+ years of professional React Native development; promoted to Senior in 2025.</li>
+            <li>Built and maintained mobile apps across the medical, aviation and fintech industries.</li>
+            <li>Published 5 open-source React Native apps on the Google Play Store, totalling 100k+ downloads.</li>
+            <li>Multiple-time speaker at React Native Warsaw (Maestro E2E testing; AI-assisted development with Claude Code).</li>
+            <li>Cross-cultural experience, having lived and studied in 7 different countries; fluent in English and Polish.</li>
+          </ul>
+        </section>
+
+        <section class="block">
+          <h2 class="block__title">Experience</h2>
+
+          <article class="job">
+            <div class="job__head">
+              <h3 class="job__org">IG Group</h3>
+              <span class="job__date">Sep 2023 — Present</span>
+            </div>
+            <p class="job__role">
+              Senior Frontend Developer (Dec 2025 — Present), previously React Native
+              Developer · Poland (Hybrid)
+            </p>
+            <p class="job__desc">
+              Helped build and launch <strong>IG Invest</strong>, a zero-commission stock
+              &amp; ETF investing app now live in the UK, using TypeScript, Redux Toolkit
+              and Reanimated. Worked closely with product, design and stakeholders on
+              planning, scoping and delivery, and acted as squad lead for a small mobile
+              squad.
+            </p>
+          </article>
+
+          <article class="job">
+            <div class="job__head">
+              <h3 class="job__org">Iterators</h3>
+              <span class="job__date">Oct 2022 — Aug 2023</span>
+            </div>
+            <p class="job__role">Junior React Native Developer · Warsaw (Remote)</p>
+            <p class="job__desc">
+              Built frontend code for multiple client projects, supported clients with
+              architectural knowledge, and liaised with product, design and development
+              teams to ensure the quality of deliverables.
+            </p>
+          </article>
+
+          <article class="job">
+            <div class="job__head">
+              <h3 class="job__org">Cleeng</h3>
+              <span class="job__date">Jun 2021 — Oct 2021</span>
+            </div>
+            <p class="job__role">Quality Assurance Intern</p>
+            <p class="job__desc">
+              Spearheaded the development of an internal testing app, written in React
+              Native, used to test in-app purchases on Android and iOS.
+            </p>
+          </article>
+        </section>
+
+        <section class="block">
+          <h2 class="block__title">Education</h2>
+          <article class="job">
+            <div class="job__head">
+              <h3 class="job__org">Polish-Japanese Academy of Information Technology</h3>
+              <span class="job__date">Oct 2019 — Feb 2023</span>
+            </div>
+            <p class="job__role">BSc Computer Science · Database specialization</p>
+            <p class="job__desc">
+              Thesis: creation of an online multiplayer board game.
+            </p>
+          </article>
+
+          <article class="job">
+            <div class="job__head">
+              <h3 class="job__org">American School of Warsaw</h3>
+              <span class="job__date">2015 — 2018</span>
+            </div>
+            <p class="job__role">International Baccalaureate (IB)</p>
+          </article>
+        </section>
+
+        <section class="block">
+          <h2 class="block__title">Selected Projects</h2>
+          <ul class="projects">
+            <li>
+              <strong>Lismova</strong> — a pixel-art app for learning Belarusian
+              (React Native, Expo, Skia). Solo project, launching soon.
+            </li>
+            <li>
+              <strong>Phasmophobia Companion</strong> — companion app for the horror game
+              Phasmophobia. 17,000+ downloads, many languages.
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
